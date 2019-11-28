@@ -1,4 +1,5 @@
 //Mongo DB and Express API
+require('./models/User');
 const mongoose = require('mongoose');
 const express = require('express');
 const bodyParser = require('body-parser');
